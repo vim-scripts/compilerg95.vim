@@ -2,5 +2,9 @@ This is a mirror of http://www.vim.org/scripts/script.php?script_id=3492
 
 This is a compiler plugin for G95 Fortran compiler.
 
+If you find any bug, please report it to xuhdev@gmail.com, or submit it on the
+issue tracker:
+https://bitbucket.org/xuhdev/compiler-g95.vim/issues
 
-Repository: https://bitbucket.org/xuhdev/compiler-g95.vim
+Repository:
+https://bitbucket.org/xuhdev/compiler-g95.vim
