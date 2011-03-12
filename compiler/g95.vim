@@ -1,6 +1,6 @@
 " Compiler: G95
 " Maintainer: H Xu <xuhdev@gmail.com>
-" Version: 0.1.1
+" Version: 0.1.2
 " Last Change: 12 March 2011
 " License: You can redistribute this plugin and/or modify it under the terms 
 "          of the GNU General Public License as published by the Free Software 
@@ -17,6 +17,7 @@ endif
 
 CompilerSet errorformat=
             \%AIn\ file\ %f:%l,
-            \%C%p1,
-            \%Z%trror:\ %m,
-            \%C%.%#
+            \%-C%p1,
+            \%-Z%trror:\ %m,
+            \%-Z%tarning\ (%n):\ %m,
+            \%-C%.%#
